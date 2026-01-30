@@ -21,6 +21,12 @@ h1 { font-weight: 900; margin: 0; }
 h2 { text-align: center; font-weight: 800; }
 p { margin: 0 20px 16px; }
 
+.highlight {
+  color: #D35400; /* deep orange */
+  font-size: 1.12em; /* slightly larger */
+  font-weight: 900;
+}
+
 #Logo { display: block; margin: 30px auto; max-width: 220px; height: auto; }
 
 .cta { text-align: center; margin-top: 16px; }
