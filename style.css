@@ -21,10 +21,17 @@ h1 { font-weight: 900; margin: 0; }
 h2 { text-align: center; font-weight: 800; }
 p { margin: 0 20px 16px; }
 
+
 .highlight {
-  color: #D35400; /* deep orange */
+  color: #000000; /* back to black */
   font-size: 1.12em; /* slightly larger */
   font-weight: 900;
+}
+
+
+.links a.tiktok {
+  color: #000000;
+  font-weight: 700;
 }
 
 #Logo { display: block; margin: 30px auto; max-width: 220px; height: auto; }
