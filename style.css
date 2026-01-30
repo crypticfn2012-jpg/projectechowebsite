@@ -1,0 +1,31 @@
+/* Global page background: single image that covers the viewport */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('OIP.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  color: #111;
+  font-weight: 700; /* make main text bold */
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 10px;
+}
+
+h1 { font-weight: 900; margin: 0; }
+h2 { text-align: center; font-weight: 800; }
+p { margin: 0 20px 16px; }
+
+#Logo { display: block; margin: 30px auto; max-width: 220px; height: auto; }
+
+.cta { text-align: center; margin-top: 16px; }
+#discord-btn { background: #5865F2; color: #fff; padding: 10px 18px; border-radius: 8px; border: none; cursor: pointer; font-weight: 800; }
+
+.links { text-align: center; margin-top: 12px; }
+.links a { color: #0645AD; font-weight: 700; text-decoration: none; }
+.links a:hover { text-decoration: underline; }
