@@ -1,1 +1,1 @@
-welcome to the official Project Echo website go to https://projectechoogfortnite.vercel.app/ to view
+welcome to the official Project Voyager website go to https://projectechoogfortnite.vercel.app/ to view
