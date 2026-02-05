@@ -2,14 +2,21 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background-image: url('OIP.webp');
+
+  background-image: url("OIP.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+
   font-family: sans-serif;
   color: #111;
-  font-weight: 700; /* make main text bold */
+  font-weight: 700;
+}
+
 }
 
 header {
@@ -42,3 +49,4 @@ p { margin: 0 20px 16px; }
 .links { text-align: center; margin-top: 12px; }
 .links a { color: #0645AD; font-weight: 700; text-decoration: none; }
 .links a:hover { text-decoration: underline; }
+
